@@ -32,10 +32,9 @@
   }
   &__mask {
     position: absolute;
-    width: 1699.19px;
-    height: 1659.41px;
-    left: -115px;
-    top: 30px;
+
+    left: 0px;
+    top: -420px;
     z-index: 0;
   }
   &__mask2 {
@@ -60,5 +59,13 @@
       margin-top: 89px;
       margin-bottom: 75px;
     }
+  }
+}
+
+.ant-pagination-item-active {
+  background-color: #3b7cdd !important;
+  border-radius: 50% !important;
+  a {
+    color: inherit !important;
   }
 }
