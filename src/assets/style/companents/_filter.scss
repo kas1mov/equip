@@ -34,6 +34,9 @@
       color: $blackColor;
       padding: 16px 50px;
     }
+    &__item:hover {
+      animation: bounce 1s;
+    }
     &__btn {
       font-family: "Almarai";
       font-style: normal;
@@ -44,6 +47,12 @@
       background: inherit;
       color: $blackColor;
     }
+  }
+}
+
+@keyframes bounce {
+  100% {
+    transform: translateY(-10px);
   }
 }
 

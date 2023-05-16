@@ -4,9 +4,17 @@
   justify-content: space-between;
   padding-top: 28px;
   padding-bottom: 53px;
+  &__img {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    text-transform: capitalize;
+    color: $whiteColor;
+  }
   &__page {
     position: relative;
-    z-index: 3;
+    z-index: 4;
     background: rgba(0, 0, 0, 0.91);
     border-radius: 0 0 68px 68px;
   }
@@ -64,6 +72,14 @@
     }
     &__menu {
       display: none;
+    }
+    &__img {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 30px;
+      color: $whiteColor;
+      text-transform: capitalize;
     }
   }
 }

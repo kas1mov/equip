@@ -1,14 +1,12 @@
 import { NavLink } from "react-router-dom";
-import { BurgerIcon, Logo } from "../../assets/icon/icon";
+import { BurgerIcon } from "../../assets/icon/icon";
 
 export const Header = () => {
   return (
     <div className="header__page">
       <div className="container">
         <div className="header">
-          <div className="header__img">
-            <Logo />
-          </div>
+          <div className="header__img">Equip</div>
           <i className="header__burger">
             <BurgerIcon />
           </i>

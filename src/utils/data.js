@@ -146,3 +146,10 @@ export const dataBuy = [
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
   },
 ];
+
+export const dataTelNum = [
+  {
+    id: 1,
+    num: "tel:+998907194828",
+  },
+];
