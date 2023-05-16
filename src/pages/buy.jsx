@@ -32,7 +32,9 @@ export const Buy = () => {
                 <p className="data__sum">{item.sum}</p>
                 <p className="data__text">{item.text}</p>
                 <div className="data__tel">
-                  <button className="data__btn">Bog`lanish</button>
+                  <NavLink className="data__btn" to={"tel:{+998907194828}"}>
+                    Bog`lanish
+                  </NavLink>
                 </div>
               </div>
             </div>
@@ -74,7 +76,7 @@ export const Buy = () => {
           </p>
         </div>
       </div>
-      <img src={gradiend} alt="" className="buy__grad"/>
+      <img src={gradiend} alt="" className="buy__grad" />
     </div>
   );
 };

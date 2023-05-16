@@ -74,3 +74,23 @@ export const StarIcon = () => {
     </svg>
   );
 };
+
+export const BurgerIcon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="26"
+      height="23"
+      fill="none"
+      viewBox="0 0 26 23"
+    >
+      <path
+        stroke="#fff"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="4.968"
+        d="M3 3h20M3 11.5h20M3 20h20"
+      ></path>
+    </svg>
+  );
+};

@@ -1,6 +1,6 @@
 .home {
   position: relative;
-  z-index: 2;
+  z-index: 3;
   &__title {
     position: relative;
     z-index: 1;
@@ -39,7 +39,7 @@
   &__mask2 {
     position: absolute;
     right: 0;
-    top: 3315px;
+    top: 3200px;
     z-index: 0;
   }
   &__filter {
@@ -66,5 +66,56 @@
   border-radius: 50% !important;
   a {
     color: inherit !important;
+  }
+}
+
+@media (max-width: 1405px) {
+  .home {
+    &__mask {
+      display: none;
+    }
+    &__mask2{
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    max-width: 354px;
+    margin: auto;
+  }
+  .home {
+    &__title {
+      &__text {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 108.97%;
+        color: $textColor;
+        margin-top: 41px;
+      }
+      &__btn {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 152.7%;
+        color: $whiteColor;
+        padding: 12px 26px;
+        margin-top: 50px;
+      }
+    }
+    &__cards {
+      &__title {
+        font-family: "Almarai";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 17px;
+        color: $blackColor;
+        margin: 13px 0;
+      }
+    }
   }
 }

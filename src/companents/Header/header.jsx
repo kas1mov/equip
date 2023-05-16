@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { Logo } from "../../assets/icon/icon";
+import { BurgerIcon, Logo } from "../../assets/icon/icon";
 
 export const Header = () => {
   return (
@@ -9,6 +9,9 @@ export const Header = () => {
           <div className="header__img">
             <Logo />
           </div>
+          <i className="header__burger">
+            <BurgerIcon />
+          </i>
           <div className="header__menu">
             <NavLink className="header__menu__home" to={"/"}>
               Home

@@ -1,8 +1,8 @@
 import { Title } from "../companents/HomeTitle/homeTitle";
 import mask from "../assets/image/Mask Group.png";
-import mask2 from "../assets/image/Gradient.png";
 import { Filter } from "../companents/Filter/filter";
 import { Cards } from "../companents/Cards/cards";
+import mask2 from "../assets/image/Gradient.png";
 
 export const Home = () => {
   return (
