@@ -1,5 +1,7 @@
 .buy {
   position: relative;
+  display: flex;
+  align-items: center;
   background: $whiteColor;
   &__container {
     position: relative;
@@ -22,10 +24,99 @@
   }
   &__mask {
     position: absolute;
-    width: 1951.27px;
-    height: 1721.07px;
     right: 0;
     top: 0px;
     z-index: 0;
+  }
+  &__grad {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  &__data {
+    margin-top: 32px;
+  }
+}
+.data {
+  display: flex;
+  gap: 56px;
+  &__title {
+    font-family: "Cabin";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 61.04px;
+    line-height: 74px;
+    color: $blackColor;
+  }
+  &__name {
+    font-family: "Cabin";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31.25px;
+    line-height: 38px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 8px 0;
+  }
+  &__reyting {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+  &__sum {
+    font-family: "Cabin";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31.25px;
+    line-height: 38px;
+    color: $blackColor;
+    margin-top: 16px;
+  }
+  &__text {
+    font-family: "Cabin";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: $blackColor;
+  }
+  &__tel {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  &__btn {
+    font-family: "Cabin";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: $whiteColor;
+    padding: 8px 24px;
+    background: #16abff;
+    border-radius: 14px;
+    margin-top: 16px;
+  }
+  &__desc {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 170px;
+    &__title {
+      font-family: "Cabin";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 31.25px;
+      line-height: 38px;
+      color: $blackColor;
+    }
+    &__text {
+      font-family: "Cabin";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      letter-spacing: -0.02em;
+      color: $blackColor;
+    }
   }
 }

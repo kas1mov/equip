@@ -34,3 +34,43 @@ export const BackIcon = () => {
     </svg>
   );
 };
+
+export const StarsIcon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      fill="none"
+      viewBox="0 0 24 24"
+    >
+      <path
+        fill="#EF5DA8"
+        d="M18.469 22.5a.75.75 0 01-.44-.14L12 17.988l-6.029 4.37a.75.75 0 01-1.15-.847l2.35-6.964-6.093-4.18A.75.75 0 011.5 9h7.518l2.268-6.982a.75.75 0 011.427 0l2.27 6.984H22.5a.75.75 0 01.424 1.37l-6.096 4.176 2.35 6.962a.75.75 0 01-.71.99z"
+      ></path>
+    </svg>
+  );
+};
+
+export const StarIcon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      fill="none"
+      viewBox="0 0 24 24"
+    >
+      <path
+        stroke="#EF5DA8"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        d="M22.5 9.75h-8.063L12 2.25l-2.438 7.5H1.5l6.563 4.5-2.532 7.5L12 17.062l6.469 4.688-2.532-7.5 6.563-4.5z"
+      ></path>
+      <path
+        fill="#EF5DA8"
+        d="M12 2.25v14.813L5.531 21.75l2.532-7.5L1.5 9.75h8.063L12 2.25z"
+      ></path>
+    </svg>
+  );
+};

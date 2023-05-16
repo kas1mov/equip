@@ -11,6 +11,7 @@
   box-shadow: 0px 2px 20px 5px rgba(0, 0, 0, 0.1);
   border-radius: 50px;
   margin: auto;
+  height: 541px;
   &__img {
     padding: 0 62.5px;
     padding-top: 25px;
@@ -33,6 +34,7 @@
     line-height: 31px;
     color: rgba(0, 0, 0, 0.6);
     margin-top: 11px;
+    margin-bottom: 28px;
   }
   &__btn {
     background: #16abff;
@@ -43,7 +45,6 @@
     font-size: 16px;
     line-height: 24px;
     color: $blackColor;
-    margin-top: 28px;
     margin-bottom: 53px;
   }
   &__pagination {

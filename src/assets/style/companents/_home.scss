@@ -32,10 +32,9 @@
   }
   &__mask {
     position: absolute;
-
+    z-index: 0;
     left: 0px;
     top: -420px;
-    z-index: 0;
   }
   &__mask2 {
     position: absolute;
