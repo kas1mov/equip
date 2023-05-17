@@ -36,6 +36,15 @@
       margin: auto;
       margin-top: 150px;
     }
+    &__pizza {
+      display: none;
+    }
+    &__pech {
+      display: none;
+    }
+    &__mangal {
+      display: none;
+    }
   }
   &__mask {
     position: absolute;
@@ -163,7 +172,27 @@
         line-height: 152.7%;
         color: $whiteColor;
         padding: 12px 26px;
-        margin-top: 50px;
+      }
+      &__pizza {
+        display: inline;
+        position: absolute;
+        right: -30px;
+        top: -60px;
+      }
+      &__tel {
+        margin: 50px;
+      }
+      &__pech {
+        display: inline;
+        position: absolute;
+        left: -30px;
+        top: 160px;
+      }
+      &__mangal {
+        display: inline;
+        position: absolute;
+        right: -30px;
+        top: 180px;
       }
     }
     &__cards {
