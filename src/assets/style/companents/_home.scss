@@ -67,6 +67,35 @@
     }
   }
 }
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  &__home {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    text-transform: capitalize;
+    color: $blackColor;
+  }
+  &__about {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    text-transform: capitalize;
+    color: $blackColor;
+  }
+  &__contact {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    text-transform: capitalize;
+    color: $blackColor;
+  }
+}
 
 .ant-pagination-item-active {
   background-color: #3b7cdd !important;

@@ -32,7 +32,7 @@ export const Buy = () => {
                 <p className="data__sum">{item.sum}</p>
                 <p className="data__text">{item.text}</p>
                 <div className="data__tel">
-                  <NavLink className="data__btn" to={"tel:{+998907194828}"}>
+                  <NavLink className="data__btn" to={"tel:+998907194828"}>
                     Bog`lanish
                   </NavLink>
                 </div>
@@ -46,6 +46,9 @@ export const Buy = () => {
             margin: "40px 0px",
           }}
         />
+        {dataBuy.map((item) => (
+          <p className="data__text2">{item.text}</p>
+        ))}
         <div className="data__desc">
           <h1 className="data__desc__title">Description</h1>
           <p className="data__desc__text">
