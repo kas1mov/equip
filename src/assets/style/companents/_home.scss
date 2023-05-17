@@ -96,6 +96,9 @@
     color: $blackColor;
   }
 }
+.ant-drawer-content-wrapper {
+  width: 290px !important;
+}
 
 .ant-pagination-item-active {
   background-color: #3b7cdd !important;
