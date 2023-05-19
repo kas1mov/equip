@@ -150,6 +150,6 @@ export const dataBuy = [
 export const dataTelNum = [
   {
     id: 1,
-    num: "tel:+998907194828",
+    num: "tel:+998949319077",
   },
 ];

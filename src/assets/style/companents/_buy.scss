@@ -96,6 +96,9 @@
     border-radius: 14px;
     margin-top: 16px;
   }
+  &__text2 {
+    display: none;
+  }
   &__desc {
     display: flex;
     flex-direction: column;
@@ -117,9 +120,6 @@
       line-height: 24px;
       letter-spacing: -0.02em;
       color: $blackColor;
-    }
-    &__text2 {
-      display: none;
     }
   }
 }
@@ -195,6 +195,7 @@
       display: none;
     }
     &__text2 {
+      display: inline;
       font-family: "Cabin";
       font-style: normal;
       font-weight: 400;

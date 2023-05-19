@@ -14,7 +14,7 @@ export const Title = () => {
       <img src={pech} alt="" className="home__title__pech" />
       <div className="home__title__tel">
         {dataTelNum.map((item) => (
-          <NavLink className="home__title__btn" to={item.num}>
+          <NavLink className="home__title__btn" to={item.num} key={item.id}>
             Bog'lanish
           </NavLink>
         ))}

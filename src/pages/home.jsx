@@ -2,7 +2,6 @@ import { Title } from "../companents/HomeTitle/homeTitle";
 import mask from "../assets/image/Mask Group.png";
 import { Filter } from "../companents/Filter/filter";
 import { Cards } from "../companents/Cards/cards";
-import mask2 from "../assets/image/Gradient.png";
 
 export const Home = () => {
   return (
@@ -20,7 +19,6 @@ export const Home = () => {
           <Cards />
         </div>
       </div>
-      <img src={mask2} alt="" className="home__mask2" />
     </div>
   );
 };

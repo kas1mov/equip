@@ -8,13 +8,21 @@
   justify-content: center;
 }
 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  // align-items: center;
+  flex: 1 1 auto;
   background: $whiteColor;
   box-shadow: 0px 2px 20px 5px rgba(0, 0, 0, 0.1);
   border-radius: 50px;
+  width: 375px;
   height: 541px;
   &__img {
-    padding: 0 62.5px;
-    padding-top: 25px;
+    width: 250px;
+    height: 203px;
+    margin: 0 62.5px;
+    margin-top: 25px;
     img {
       width: 100%;
       height: 100%;
@@ -22,7 +30,7 @@
     }
   }
   &__text {
-    padding: 0 25px;
+    padding: 0 35px;
   }
   &__title {
     font-style: normal;
@@ -30,7 +38,7 @@
     font-size: 25.88px;
     line-height: 39px;
     color: $blackColor;
-    margin-top: 107px;
+    // margin-top: 107px;
   }
   &__sum {
     font-style: normal;
@@ -50,7 +58,7 @@
     font-size: 16px;
     line-height: 24px;
     color: $blackColor;
-    margin-bottom: 53px;
+    // margin-bottom: 53px;
   }
   &__pagination {
     background: $whiteColor;
@@ -78,10 +86,13 @@
     gap: 21px;
   }
   .card {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
     background: $whiteColor;
     border-radius: 40px;
-    // width: 158px;
-    height: 195px;
+    width: 140px;
+    height: 200px;
     &__img {
       width: 140px;
       height: 100px;
@@ -103,7 +114,7 @@
       font-size: 10px;
       line-height: 15px;
       color: $blackColor;
-      margin-top: 12px;
+      // margin-top: 12px;
     }
     &__sum {
       font-style: normal;
@@ -111,8 +122,8 @@
       font-size: 9px;
       line-height: 14px;
       color: rgba(0, 0, 0, 0.6);
-      margin-top: 5px;
-      margin-bottom: 10px;
+      // margin-top: 5px;
+      margin-bottom: 5px;
     }
     &__btn {
       font-style: normal;
