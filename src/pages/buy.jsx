@@ -3,19 +3,34 @@ import { BackIcon, StarIcon, StarsIcon } from "../assets/icon/icon";
 import MaskImg from "../assets/image/Mask Group (1).png";
 import gradiend from "../assets/image/Gradient (1).png";
 import { dataBuy } from "../utils/data";
+import { useEffect, useState } from "react";
 
-export const Buy = () => {
+export const Buy = ({ url }) => {
+  const [cardBuy, setCardBuy] = useState([]);
+
+  console.log(url);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  useEffect(() => {
+    fetch(url)
+      .then((res) => res.json())
+      .then((json) => setCardBuy(json))
+      .catch((error) => console.error(error));
+  }, []);
+
+  console.log(cardBuy);
+
   return (
     <div className="buy">
       <img src={MaskImg} alt="" className="buy__mask" />
       <div className="buy__container">
         <NavLink className="buy__back" to={"/"}>
-          {" "}
           <BackIcon /> Back
         </NavLink>
         <div className="buy__data">
           {dataBuy.map((item) => (
-            <div className="data">
+            <div className="data" key={item.id}>
               <div className="data__img">
                 <img src={item.img} alt="" />
               </div>
